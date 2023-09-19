@@ -1,0 +1,120 @@
+@media screen and (max-width: 1200px) {
+    .nav-list {
+        gap: 20px;
+    }
+    .carusel-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .carusel-desc {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.36;
+    }
+    /* ************** */
+    .section {
+        gap: 44px;
+    }
+    .small_cont {
+        width: 290px;
+        height: 235px;
+    }
+    .small_cont h3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .small_cont_p {
+        display: none;
+    }
+    .small_cont_p2 {
+        text-align: center;
+        display: block;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.36px;
+    }
+    .icon_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .modern_container,
+    .meritocratic_container,
+    .engineer_container {
+        width: 460px;
+        height: 390px;
+        gap: 18px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .navbar {
+        display: none;
+    }
+    .three_dash_btn {
+        display: block;
+    }
+    .carusel,
+    .info-img {
+        width: 100%;
+    }
+    .info {
+        flex-direction: column-reverse;
+        gap: 28px;
+    }
+    .carusel {
+        align-items: center;
+        text-align: center;
+        gap: 48px;
+    }
+    .carusel-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .carusel-desc {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.36;
+    }
+    /* ************************** */
+    .section {
+        gap: 44px;
+    }
+    .small_cont {
+        width: 291px;
+        height: 235px;
+    }
+    .small_cont h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .small_cont_p {
+        display: none;
+    }
+    .small_cont_p2 {
+        text-align: center;
+        width: 291px;
+        height: 109px;
+        display: block;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.36px;
+    }
+    .icon_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .modern_container,
+    .meritocratic_container,
+    .engineer_container {
+        width: 320px;
+        height: 287px;
+        gap: 18px;
+    }
+}
+
+
+/* ##LAPTOP## */

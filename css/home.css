@@ -1,0 +1,116 @@
+        /* ########### PAGE 1 HEADER ########## */
+        
+        #header {
+            height: 107px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 32px;
+            border-bottom: 1px solid var(--borderColor);
+        }
+        
+        .logo_content {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .logo-title {
+            font-family: var(--fontOpenSans);
+            color: var(----textBlack);
+            font-weight: 700;
+            font-size: 32px;
+            letter-spacing: -1.28px;
+        }
+        
+        .navbar {
+            height: 21px;
+        }
+        
+        .nav-list {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .nav-link {
+            color: var(----textBlack);
+            font-weight: 600;
+        }
+        
+        .nav-item:last-child .nav-link {
+            font-weight: 800;
+            color: var(--mainGreen);
+        }
+        
+        .three_dash_btn {
+            display: none;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        /* ########### PAGE 2 HEADER_BOTTOM ########## */
+        
+        .info {
+            display: flex;
+            align-items: center;
+            padding: 46px 32px;
+            gap: 37px;
+        }
+        
+        .carusel,
+        .info-img {
+            width: 50%;
+        }
+        
+        .carusel {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 40px;
+        }
+        
+        .info-img img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .carusel-content {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        
+        .carusel-title {
+            color: var(--textBlack);
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 80px;
+        }
+        
+        .carusel-desc {
+            color: var(--textThin);
+            font-family: var(--fontOpenSans);
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: -0.48px;
+        }
+        
+        .carusel-btn {
+            background-color: var(--mainGreen);
+            color: var(--mainWhite);
+            border-radius: 8px;
+            border: none;
+            padding: 20px 24px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .carusel-btn:hover {
+            opacity: 0.7;
+            transform: scale(0.95);
+        }
