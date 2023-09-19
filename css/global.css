@@ -2,6 +2,7 @@
 @import url("./variable.css");
 @import url("./home.css");
 @import url("./section.css");
+@import url("./kickstart.css");
 @import url("./responsive.css");
 body {
     font-family: var(--fontMain);
